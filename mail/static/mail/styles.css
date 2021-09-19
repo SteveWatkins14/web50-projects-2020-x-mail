@@ -1,0 +1,86 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Arvo', serif;
+    line-height: 1;
+}
+
+body {
+    font-family: 'Arvo', serif;
+}
+
+textarea {
+    min-height: 250px;
+}
+
+.login-content,
+.register-content {
+    margin: 12% auto;
+    width: 60%;
+    max-width: 750px;
+}
+
+.login-title,
+.register-title,
+.user-email,
+.mailbox-title {
+    color: #0275d8;
+    font-weight: 900;
+    padding-bottom: 0.5em;
+}
+
+.login-register-text {
+    padding-top: 0.5em;
+}
+
+.login-register-link {
+    color: #0275d8;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 80%;
+    text-align: center;
+}
+
+.user-email {
+    text-align: left;
+    padding-top: .5em;
+}
+
+.email-title {
+    font-weight: 600;
+}
+
+.email-header,
+.email-addresses,
+.email-body {
+    padding-bottom: 0.5em;
+}
+
+.email-view-btns button {
+    margin-right: 0.5em;
+}
+
+.submit-btn {
+    margin-top: 0.5em;
+}
+
+.read {
+    background-color: lightgrey;
+}
